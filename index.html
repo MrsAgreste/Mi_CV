@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Libreria para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+        integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="estilos.css">
     <title>MI CV</title>
 </head>
@@ -20,13 +28,13 @@
     <main>
 
         <img class="separador" src="img/Linea1.png">
-
-            <img src="img/libros.png" alt="Imagen de libros" class="name">
+        <img src="img/libros.png" alt="Imagen de libros" class="name">
 
 
         <section class="datos">
-            <div class="contacto">
-                <div class="contenedorT">
+
+            <article class="contacto">
+                <div class="subtitulo">
                     <h2 class="sub1">Información general</h2>
                 </div>
                 <p> <span>Nombre:</span>
@@ -38,6 +46,7 @@
                 <span>Mis redes sociales: </span>
                 <br>
 
+                <span class="links-center">
                 <a target="_blank" href="https://www.linkedin.com/in/Elainadel20140903">
                     <img src="img/Linked.jpeg" alt="Logo de Linked In">
                 </a>
@@ -55,10 +64,33 @@
                 <a target="_blank" href="https://www.facebook.com/profile.php?id=100081456213479">
                     <img src="img/face1.jpeg" alt="Logo de Facebook">
                 </a>
+                </span>
+            </article>
 
-            </div>
-            <div class="perfil">
-                <div class="contenedorT">
+            <article class="habilidades">
+                <div class="subtitulo">
+                    <h2 class="sub1">habilidades</h2>
+                </div>
+                <ul class="skills">
+                    <li>Creatividad</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Capacidad de adaptación</li>
+                    <li>Competencias digitales</li>
+                    <li>Ingles Intermedio</li>
+                </ul>
+            </article>
+
+            <article class="experiencia">
+                <div class="subtitulo">
+                    <h2 class="sub1">Experiencia</h2>
+                </div>
+                <p>Aún no cuento con experiencia laboral...</p>
+            </article>
+        </section>
+
+        <section class="presentacion">
+            <article class="perfil">
+                <div class="subtitulo">
                     <h2 class="sub1">perfil</h2>
                 </div>
                 <p>
@@ -82,35 +114,18 @@
                     fomentar valores como los
                     del compañerismo.</p>
                 <p>Aspiro a graduarme y estudiar una maestria en ciberseguridad y viajar fuera del pais</p>
-                <div class="contenedorT">
+            </article>
+
+            <article class="educacion">
+                <div class="subtitulo">
                     <h2 class="sub1">Educación</h2>
                 </div>
                 <p>[2019] - [2021] Preparatoria: Educacion Práctica para la vida</p>
                 <p>[12-24/09/2021] BYJU'S FutureSchool</p>
                 <p>[2021] - [2023 +] Instituto Tecnologico Superior de Venustiano Carranza</p>
-            </div>
+            </article>
 
-        </section>
-
-        <section class="presentacion">
-            <div class="habilidades">
-                <div class="contenedorT">
-                    <h2 class="sub1">habilidades</h2>
-                </div>
-                <ul class="skills">
-                    <li>Creatividad</li>
-                    <li>Trabajo en equipo</li>
-                    <li>Capacidad de adaptación</li>
-                    <li>Competencias digitales</li>
-                    <li>Ingles Intermedio</li>
-                </ul>
-            </div>
-            <div class="experiencia">
-                <div class="contenedorT">
-                    <h2 class="sub1">Experiencia</h2>
-                </div>
-                <p>Aún no cuento con experiencia laboral...</p>
-            </div>
+            
         </section>
     </main>
 
@@ -118,9 +133,7 @@
 </body>
 
 <footer>
-    <div class="piePagina">
-        Todos los derechos reservados © Elainadel 2023
-    </div>
+    <p>Todos los derechos reservados © Elainadel 2023</p>
 </footer>
 
 </html>
